@@ -1,0 +1,108 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif ;
+}
+body{
+    margin: 0px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: rgb(166, 129, 35);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(166, 129, 35);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    border: 2px solid rgb(166, 129, 35);
+}
+.navbar a:hover{
+    
+    background: rgb(166, 129, 35);
+    color: white;
+    box-shadow: 0 0 20px rgb(166, 129, 35);
+}
+.HOME{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(InShot_20240103_171734731\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.HOME-content{
+    max-width: 700px;
+}
+.HOME-content h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.HOME-content h1{
+    font-size: 56px;
+    margin: -3px 0;
+    color: rgb(166, 129, 35);
+}
+.HOME-content p{
+    font-size: 20px;
+}
+.HOME-sci a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(166, 129, 35);
+border-radius: 50%;
+font-size: 20px;
+color: rgb(166, 129, 35);
+text-decoration: none;
+margin: 30px 15px 30px 0;
+}
+.HOME-sci a:hover{
+    background: rgb(166, 129, 35);
+    color: white;
+    box-shadow: 0 0 20px rgb(166, 129, 35);
+
+}
+.btnbox{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(166, 129, 35);
+    border-radius: 40px;
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btnbox:hover{
+    
+    box-shadow: 0 0 50px rgb(166, 129, 35);
+}
