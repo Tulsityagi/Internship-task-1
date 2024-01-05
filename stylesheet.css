@@ -39,7 +39,6 @@ body{
     border: 2px solid rgb(166, 129, 35);
 }
 .navbar a:hover{
-    
     background: rgb(166, 129, 35);
     color: white;
     box-shadow: 0 0 20px rgb(166, 129, 35);
